@@ -14,7 +14,7 @@
     width: 100vw;
 }
 
-@media screen and (max-width:411px) {
+@media screen and (max-width:420px) {
     #DESKTOP {
         display: none;
 
