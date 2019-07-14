@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+#DESKTOP {
+    width: 100vw;
+}
+
+#MOBILE {
+    display: none;
+    width: 100vw;
+}
+
+@media screen and (max-width:411px) {
+    #DESKTOP {
+        display: none;
+
+    }
+
+    #MOBILE {
+        display: block;
+    }
+}
